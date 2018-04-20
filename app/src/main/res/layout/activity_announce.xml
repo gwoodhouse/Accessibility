@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp">
+
+    <Button
+        android:id="@+id/sendAccessibilityAnnouncement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Announce by Event Type"/>
+
+    <Button
+        android:id="@+id/sendAccessibilityAnnouncementEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Announce by Announce Event"/>
+
+    <Button
+        android:id="@+id/announceForAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Announce Text"/>
+
+    <Button
+        android:id="@+id/changePoliteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Change Polite Text View"/>
+
+    <TextView
+        android:id="@+id/politeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:accessibilityLiveRegion="polite"
+        android:text="Polite Text View"/>
+
+    <Button
+        android:id="@+id/changeAssertiveTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Change Assertive Text View"/>
+
+    <TextView
+        android:id="@+id/assertiveTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:accessibilityLiveRegion="assertive"
+        android:text="Assertive Text View"/>
+</LinearLayout>
