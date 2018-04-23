@@ -1,14 +1,14 @@
 package gcastle.com.accessibilitydemo;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class AnnounceActivity extends Activity {
+public class AnnounceActivity extends AppCompatActivity {
 
     Button mSendAnnounceEventTypeButton;
     Button mSendAnnounceEventButton;

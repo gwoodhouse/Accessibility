@@ -1,10 +1,10 @@
 package gcastle.com.accessibilitydemo;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 
-public class V22TraversalActivity extends Activity {
+public class V22TraversalActivity extends AppCompatActivity {
 
 
     @Override
