@@ -28,6 +28,9 @@
             android:name=".V22TraversalActivity"
             android:label="Traversal Demo (v22+)" />
 
+        <activity
+            android:name=".TraversalActivity"
+            android:label="Traversal Demo" />
 
     </application>
 </manifest>

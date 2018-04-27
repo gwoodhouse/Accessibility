@@ -26,5 +26,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), V22TraversalActivity.class));
             }
         });
+
+        findViewById(R.id.traversal).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), TraversalActivity.class));
+            }
+        });
     }
 }

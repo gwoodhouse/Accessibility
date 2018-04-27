@@ -20,4 +20,11 @@
         android:layout_height="wrap_content"
         android:text="v22 Traversal Demo"
         android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/traversal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Traversal Demo"
+        android:layout_marginTop="12dp"/>
 </LinearLayout>
